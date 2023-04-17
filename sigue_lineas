@@ -18,7 +18,5 @@ while True:
         rover.motor (150,0)
     elif sensor == 3:
         rover.motor (50,0)
-    elif sensor == 0:
-        rover.motor (50,50)
     else:
         rover.motor (255,255)
